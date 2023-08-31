@@ -6,7 +6,7 @@ const currentLocationBtn = document.querySelector(
 const currentWeatherDiv = document.querySelector("[data-current-weather]");
 const weatherCardsDiv = document.querySelector("[data-weather-cards]");
 
-const API_KEY = "5b20e67cf85a0c3bc8d73c6eacde70ff";
+const API_KEY = "YOUR_API_KEY";
 
 const createWeatherCard = (cityName, weatherItem, index) => {
   if (index === 0) {
